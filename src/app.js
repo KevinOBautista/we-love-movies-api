@@ -12,7 +12,7 @@ const errorHandler = require("./errors/errorHandler");
 
 app.use(
 	cors({
-		origin: "http://localhost:3000",
+		origin: "https://we-love-movies-website.onrender.com",
 	})
 );
 app.use(express.json());
